@@ -106,11 +106,11 @@ header .profile-image:hover {
   transition: all .5s;
 }
 .boxtitle {
-  text-align:center
+  text-align:center;
 }
 .card:hover {
   border-color: #ff3333;
-  transform:scale(1.05)
+  transform:scale(1.05);
 }
 
 ul.skills {
