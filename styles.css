@@ -34,7 +34,7 @@ a:hover {
 .nav {
   display: flex;
   justify-content: space-around;
-  font-weight: 700;
+  font-weight: 500;
   list-style-type: none;
   margin: 0 auto;
   padding: 0;
@@ -52,7 +52,7 @@ a:hover {
   transition: all .5s;
 }
 .nav a:hover {
-  color: red
+  color: red;
 }
 
 header {
@@ -69,12 +69,13 @@ header .profile-image {
   margin-top: 50px;
   width: 200px;
   height: 200px;
-  border-radius: 50%;
-  border: 3px solid red;
+  border-radius: 75%;
+  border: 4px solid #ccc;
   transition: all .75s;
 }
 header .profile-image:hover {
   transform: scale(1.15) rotate(360deg);
+  border-color: #ff3333;
 }
 .tag {
   background-color: #efefef;
